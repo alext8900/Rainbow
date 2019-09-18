@@ -6,4 +6,9 @@
 //  Copyright © 2019 Lambda School. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct Color {
+    let name: String
+    let color: UIColor
+}
