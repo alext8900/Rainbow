@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="600" y="-102.45535714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Detail View Controller-->
         <scene sceneID="y9v-oA-yIP">
             <objects>
-                <viewController id="mhS-uF-nWB" sceneMemberID="viewController">
+                <viewController id="mhS-uF-nWB" customClass="ColorDetailViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qz2-dH-mBc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
