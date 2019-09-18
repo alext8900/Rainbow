@@ -52,13 +52,37 @@
 		1FD28ECE2331C93B00F392F3 /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				1FD28ECF2331C93B00F392F3 /* AppDelegate.swift */,
+				1FD28EE32331CABF00F392F3 /* Model */,
+				1FD28EE22331CAB400F392F3 /* ViewControllers */,
+				1FD28EE12331CA6800F392F3 /* Storyboards */,
 				1FD28ED32331C93B00F392F3 /* Main.storyboard */,
-				1FD28ED62331C94200F392F3 /* Assets.xcassets */,
 				1FD28ED82331C94200F392F3 /* LaunchScreen.storyboard */,
-				1FD28EDB2331C94200F392F3 /* Info.plist */,
 			);
 			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		1FD28EE12331CA6800F392F3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1FD28ECF2331C93B00F392F3 /* AppDelegate.swift */,
+				1FD28ED62331C94200F392F3 /* Assets.xcassets */,
+				1FD28EDB2331C94200F392F3 /* Info.plist */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1FD28EE22331CAB400F392F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1FD28EE32331CABF00F392F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
