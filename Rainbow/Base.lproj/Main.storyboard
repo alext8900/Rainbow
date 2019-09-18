@@ -36,7 +36,13 @@
                             <outlet property="delegate" destination="Kqs-VV-zdB" id="6YC-jM-TX0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Rainbow" id="FP6-cR-hf2"/>
+                    <navigationItem key="navigationItem" title="Rainbow" id="FP6-cR-hf2">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="oy3-fO-iRU">
+                            <connections>
+                                <action selector="addNewColor:" destination="Kqs-VV-zdB" id="84g-C0-uEw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3y-3t-AOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
